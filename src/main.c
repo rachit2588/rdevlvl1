@@ -1,8 +1,18 @@
 #include <stdio.h>
-#include "func1.h"
+#include <stdlib.h>
+#include <time.h>
+#include "function.h"
+
 
 int main ()
 {
-  func1();
-  return 0;
+    func_init();
+    double runInstanceNumber = 0 ;
+    while(1)
+    {
+        func1_sqrt();
+        //func2_prime(runInstanceNumber+1);
+        runInstanceNumber++;
+    }
+    return 0;
 }

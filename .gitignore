@@ -1,2 +1,9 @@
 
 *.out
+rdevlvl1/.DS_Store
+.DS_Store
+*.pbxproj
+*.xcworkspacedata
+*.plist
+*.xcuserstate
+*.plist
