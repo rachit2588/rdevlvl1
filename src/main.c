@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include"func1.h"
+#include <stdio.h>
+#include "func1.h"
 
 int main ()
 {
