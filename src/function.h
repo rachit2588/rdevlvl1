@@ -1,4 +1,7 @@
-//prototype for func1
+/***********************
+ Function Prototype List
+ ***********************/
 void func_init(void);
-void func1_sqrt(void);
+double func1_sqrt(float);
 void func2_prime(double);
+long double func3_factorial(long double);

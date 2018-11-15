@@ -7,12 +7,13 @@
 int main ()
 {
     func_init();
-    double runInstanceNumber = 0 ;
+    double runInstanceNumber = 1;
     while(1)
     {
-        func1_sqrt();
-        //func2_prime(runInstanceNumber+1);
+        func3_factorial( func1_sqrt(runInstanceNumber));
+        func2_prime(runInstanceNumber);
         runInstanceNumber++;
     }
+    
     return 0;
 }
